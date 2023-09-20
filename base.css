@@ -1,0 +1,248 @@
+:root {
+    --1: #303030;
+    --2: #FFFFFF;
+    --3: #DA5E42;
+    --4: #D84727;
+}
+
+body {
+    background-color: #c0c0c0;
+}
+
+.wrapper {
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.mennu {
+    margin-right: 1%;
+    font-family: 'Roboto';
+}
+
+.logo {
+    margin-left: 5%;
+    margin-right: 40%;
+    background-size: contain;
+    background-position: center;
+}
+
+.head-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.head-nav li {
+    margin-right: 20px;
+    size: 18px;
+    font-size: 12px;
+    font-family: 'Roboto';
+    color: var(--2);
+}
+
+.head-nav a {
+    color: var(--2);
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-items: top;
+    margin-top: 50px;
+    font-family: 'Taviraj';
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.item { 
+    margin: 1%;
+    
+}
+
+.item1 {
+    background-color: var(--2);
+    color: var(--1);
+    flex: 1;
+    margin-left: 8%;
+    width: 540px;
+    height: 508px;
+    color: #303030;
+}
+
+.item2 {
+    color: var(--1);
+    display: flex;
+    flex: 1;
+    margin-right: 8%;
+    width: 550px;
+    height: 100%;
+    align-items: center;justify-content: space-between;
+    flex-direction: column;
+    /* margin-bottom: 4%; */
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.input-container {
+    background-color: var(--2);
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+}
+
+.input-box {
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-bottom: 5%;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 1%;
+}
+
+.input-box input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.input-box select {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.inputt {
+    display: flex;
+    align-items: flex-start;
+}
+
+.inputt .col-7,
+.inputt .col {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    padding-top: 4%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 5%;
+    margin-bottom: 20px;
+}
+
+.but {
+    width: 50%;
+    height: 61px;
+    text-align: center;
+    align-items: center;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.but a {
+    text-decoration: none;
+    color: var(--2);
+}
+
+.but button {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.but1 {
+    width: 100%;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 2%;
+    background-color: var(--2);
+    border: 1px solid var(--4);
+    align-items: center;justify-content: space-between;
+    font-size: 20px;
+}
+
+#a1 {
+    color: var(--4);
+    text-decoration: none;
+}
+
+.but2 {
+    width: 100%;
+    height: 61px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--4);
+    background-color: var(--4);
+    border: 1px solid var(--2);
+    color: var(--2);
+    align-items: center;justify-content: space-between;
+    font-size: 20px;
+}
+
+.Foote {
+    font-family: 'Taviraj';
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color:  var(--2);
+    margin-top: 20px
+}
+
+.p1 {
+    height: 273px;
+    background-color: var(--3);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.p1a{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2%;
+}
+.p2 {
+    height: 400px;
+    background-color: var(--4);
+    display: flex;
+    flex-direction: row;
+    padding:  10%  ;
+    align-items: center;justify-content: space-between;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    padding-top: 25%;
+}
+.p2a{
+    padding: 0 30px;
+}
